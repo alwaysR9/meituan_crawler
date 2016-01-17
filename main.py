@@ -8,7 +8,7 @@ if __name__ == "__main__":
 	# load urls
 	print "Load URLs of Shops"
 	url_collector = ShopURLCollector()
-	url_collector.set_city("qhd")
+	url_collector.set_city("sz")
 	url_collector.set_food("huoguo")
 	shop_urls = url_collector.extract_shop_urls()
 	print "The Number Of URL: %d" % len(shop_urls)
