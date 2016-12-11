@@ -134,7 +134,7 @@ class ShopURLCollector:
 	def __extract_shop_urls(self, html):
 		
 		soup = BeautifulSoup(html)
-		items = soup.find_all("a", attrs={"class":"link f3"})
+		items = soup.find_all("a", attrs={"class":"link f3 J-mtad-link"})
 
 		urls = []
 		for item in items:
